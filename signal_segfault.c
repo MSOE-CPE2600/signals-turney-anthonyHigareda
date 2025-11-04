@@ -4,9 +4,12 @@
  */
 
 /**
- * Modified by:
+ * Modified by: Anthony Higareda
  * 
- * Brief summary of modifications:
+ * Brief summary of modifications: Added a signal handler for a segmentation violation
+ * When a SIGSEGV is sent out, the program reports that a violation happened, then returns
+ * to the line where the violation occurs, only for the signal to be sent out again in 
+ * an infinite loop
  */
 
 
