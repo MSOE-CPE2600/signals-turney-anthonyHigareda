@@ -2,7 +2,11 @@
  * File: signal_alarm.c
  * Modified by: Anthony Higareda
  * 
- * Brief summary of program:
+ * Brief summary of program: Set up an alarm signal handler.
+ * The handler reports that the signal was received and exits.
+ * Set the alarm for 5 seconds, then enter an infinite while loop
+ * that prints "Waiting....." as fast as the program is able to.
+ * Once the alarm signal is sent, the program will exit
  */
 
 #include <signal.h>
