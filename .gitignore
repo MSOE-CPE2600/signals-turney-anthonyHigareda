@@ -2,6 +2,7 @@
 alarm
 handler
 segfault
+sigact
 
 # Prerequisites
 *.d
