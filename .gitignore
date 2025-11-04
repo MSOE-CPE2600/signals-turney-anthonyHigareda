@@ -1,6 +1,7 @@
 # Executables
 alarm
 handler
+segfault
 
 # Prerequisites
 *.d
