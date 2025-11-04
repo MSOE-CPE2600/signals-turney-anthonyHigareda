@@ -1,3 +1,7 @@
+# Executables
+alarm
+handler
+
 # Prerequisites
 *.d
 
