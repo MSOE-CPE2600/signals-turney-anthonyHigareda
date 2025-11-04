@@ -10,9 +10,21 @@
  */
 
 
+#include <signal.h>
+#include <unistd.h>
+#include <stdlib.h>
 #include <stdio.h>
 
+void handle_segfault()
+{
+    printf("Uh oh! A segmentation violation occured!\n");
+}
+
 int main (int argc, char* argv[]) {
+
+    // Signal handler for a segmentation violation
+    signal(SIGSEGV, handle_segfault);
+
     // Declare a null pointer
     int* i = NULL;
 
