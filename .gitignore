@@ -3,6 +3,8 @@ alarm
 handler
 segfault
 sigact
+recv
+send
 
 # Prerequisites
 *.d
